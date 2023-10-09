@@ -2,6 +2,8 @@
 
 #include <regex>
 
+// Comment for the git thing
+
 void DatabaseAdapter::executeQuery(string query)
 {
     string translatedQuery = translateQuery(query);
